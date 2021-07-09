@@ -202,7 +202,7 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Device Sepolicy
 include device/xiaomi/sm7125-common-sepolicy/sepolicy.mk
-#SELINUX_IGNORE_NEVERALLOWS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Side FP key for InputDispatcher to skip
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 96
