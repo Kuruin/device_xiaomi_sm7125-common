@@ -1,6 +1,10 @@
 # Apex
 ro.apex.updatable=true
 
+# ART
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
+
 # Audio
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=32
